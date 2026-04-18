@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-me(6865_9+)v&_5mzfwn3(hqv&+$*tye3=#^4aqy!mt7v9(1wj
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    'note-app-backend-1-jvdq.onrender.com'
+    "note-app-backend-1-jvdq.onrender.com",
+    "localhost",
+    "127.0.0.1",
 ]
 
 
@@ -145,6 +147,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "https://your-frontend-url.onrender.com",
 ]
-
 CORS_ALLOW_CREDENTIALS = True
