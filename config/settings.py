@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-me(6865_9+)v&_5mzfwn3(hqv&+$*tye3=#^4aqy!mt7v9(1wj'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = [
     'note-app-backend-1-jvdq.onrender.com'
